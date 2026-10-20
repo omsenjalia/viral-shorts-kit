@@ -1,0 +1,138 @@
+{
+  "title": "HeyGen's free HyperFrames lets your AI agent make videos",
+  "source": {
+    "name": "Noqta: HeyGen HyperFrames, HTML to MP4 for AI agents",
+    "url": "https://www.noqta.tn/en/blog/heygen-hyperframes-html-to-mp4-ai-agent-video-2026"
+  },
+  "music": "auto",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "Your AI agent can make real videos.",
+      "accent": "videos",
+      "mood": "shock",
+      "narration": "Your AI agent can make real videos."
+    },
+    {
+      "type": "source",
+      "publisher": "Noqta",
+      "date": "Open source",
+      "headline": "HyperFrames: HTML to MP4, built for AI agents",
+      "accent": "agents",
+      "narration": "HeyGen's free HyperFrames is a video framework built for AI agents.",
+      "shot": "episodes/hyperframes-open-source/shots/noqta-tn-full.png",
+      "url": "https://www.noqta.tn/en/blog/heygen-hyperframes-html-to-mp4-ai-agent-video-2026",
+      "hideDate": true
+    },
+    {
+      "type": "type3d",
+      "words": [
+        {
+          "text": "HTML",
+          "at": "HTML"
+        },
+        {
+          "text": "to",
+          "at": "captures"
+        },
+        {
+          "text": "MP4",
+          "at": "MP4"
+        }
+      ],
+      "accent": "MP4",
+      "narration": "Plain HTML goes in. Headless Chrome captures it frame by frame, and out comes a real MP4.",
+      "ground": "paper",
+      "film": {
+        "at": "captures"
+      }
+    },
+    {
+      "type": "terminal",
+      "title": "~/my-app",
+      "lines": [
+        {
+          "cmd": "npx skills add heygen-com/hyperframes",
+          "at": "command"
+        },
+        {
+          "out": "✓ skills installed"
+        },
+        {
+          "cmd": "claude \"make a 20s launch video\"",
+          "at": "Claude"
+        }
+      ],
+      "narration": "Setup is one command. Then Claude Code, Cursor, Codex or Gemini CLI can use it.",
+      "label": "One command",
+      "tools": [
+        {
+          "name": "Claude Code",
+          "at": "Claude"
+        },
+        {
+          "name": "Cursor",
+          "at": "Cursor"
+        },
+        {
+          "name": "Codex",
+          "at": "Codex"
+        },
+        {
+          "name": "Gemini CLI",
+          "at": "Gemini"
+        }
+      ]
+    },
+    {
+      "type": "chat",
+      "app": "Claude Code",
+      "prompt": "Make a 20-second launch video for my app",
+      "reply": "Writing 4 scenes in HTML… previewing… rendering launch.mp4. Done.",
+      "narration": "Just describe the video. HeyGen made its own launch video exactly this way.",
+      "label": "Then just ask",
+      "artifact": {
+        "name": "launch.mp4",
+        "at": "launch"
+      }
+    },
+    {
+      "type": "compare",
+      "before": {
+        "label": "Hosted video APIs",
+        "items": [
+          "Per-minute fees",
+          "API keys",
+          "Rate limits"
+        ]
+      },
+      "after": {
+        "label": "HyperFrames",
+        "items": [
+          "Apache 2.0, free",
+          "Runs on your machine",
+          "Same output every render"
+        ],
+        "at": "Apache"
+      },
+      "narration": "No per-minute fees, no API keys. It's Apache 2.0, runs on your machine, and every render is identical.",
+      "label": "Why it matters",
+      "ground": "ink"
+    },
+    {
+      "type": "mo3d",
+      "text": "One prompt in. MP4 out.",
+      "accent": "MP4",
+      "mood": "happy",
+      "pose": "present",
+      "narration": "One prompt in. A finished MP4 out.",
+      "ground": "paper"
+    },
+    {
+      "type": "cta",
+      "text": "Follow Agent Mode",
+      "sub": "One AI upgrade, every day.",
+      "narration": "Follow Agent Mode for one AI upgrade every day."
+    }
+  ]
+}

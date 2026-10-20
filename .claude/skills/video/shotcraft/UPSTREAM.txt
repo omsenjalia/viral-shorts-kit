@@ -1,0 +1,2 @@
+43bd349a136651865ecfa6ea1cf012f6e957d304 Sun Oct 18 01:50:52 2026 +0800
+https://github.com/Vincentwei1021/video-shotcraft (Apache-2.0)

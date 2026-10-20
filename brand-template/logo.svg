@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Agent Mode">
+  <!-- Mo's face. Content stays inside the centre circle so YouTube's round crop never clips it. -->
+  <rect width="512" height="512" rx="112" fill="#141413"/>
+  <circle cx="256" cy="268" r="200" fill="#D97757" opacity=".12"/>
+  <line x1="256" y1="132" x2="256" y2="96" stroke="#D97757" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="256" cy="86" r="22" fill="#FAF9F5"/>
+  <rect x="106" y="132" width="300" height="250" rx="84" fill="#D97757"/>
+  <rect x="146" y="178" width="220" height="156" rx="50" fill="#141413"/>
+  <rect x="196" y="214" width="34" height="56" rx="17" fill="#FAF9F5"/>
+  <rect x="282" y="214" width="34" height="56" rx="17" fill="#FAF9F5"/>
+  <path d="M226 296 Q256 316 286 296" fill="none" stroke="#D97757" stroke-width="12" stroke-linecap="round"/>
+</svg>

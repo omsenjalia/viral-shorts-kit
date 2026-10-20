@@ -1,0 +1,9 @@
+viral-shorts-kit
+Copyright 2026 Om Senjalia
+
+This product includes software adapted from video-shotcraft
+(https://github.com/Vincentwei1021/video-shotcraft), licensed under the Apache License 2.0.
+Vendored copy: .claude/skills/video/shotcraft/ (upstream commit in UPSTREAM.txt).
+Adapted files: src/sc/ (see src/sc/NOTICE.md) and src/shots/*.shot.tsx (ports of shotcraft demos).
+
+Third-party audio from video-shotcraft and Mixkit is referenced, not redistributed.

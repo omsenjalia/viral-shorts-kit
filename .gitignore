@@ -5,3 +5,15 @@ dist
 
 # Ignore the output video from Git but not videos you import into src/.
 out
+
+# Local TTS/ASR models (Kokoro, faster-whisper), downloaded on setup
+models/
+
+# Generated per episode (voice, music, captured pages): rebuild with scripts/build.mjs + capture.mjs
+public/episodes/
+
+# Third-party audio is referenced, not redistributed (see public/sfx/LICENSE.md and the shotcraft ATTRIBUTION.md)
+public/sfx/sc/
+.claude/skills/video/shotcraft/assets/audio/bgm/
+.claude/skills/video/shotcraft/assets/audio/sfx/
+.claude/skills/video/shotcraft/template/public/audio/
