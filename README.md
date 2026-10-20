@@ -1,13 +1,13 @@
 # /video
 
-**You found it. Now make it a Short.**
+**You found it. Now make it a video.**
 
 <p align="center">
   <img src="docs/demo.gif" width="320" alt="A 36-second Short made by /video from one article" />
   <br/><a href="docs/demo.mp4">▶ Watch it with sound</a>
 </p>
 
-`/video` is a Claude Code skill that turns any link (an article, a repo, a launch) into a cinematic, narrated YouTube Short: 3D shots, real-page b-roll, voiceover, subtitles, music and share copy included. One command, rendered with [Remotion](https://remotion.dev).
+`/video` is a Claude Code skill that turns any link (an article, a repo, a launch) into a cinematic, narrated YouTube video: a 9:16 **Short**, a 16:9 **long-form explainer**, or both from the same research. 3D shots, real-page b-roll, voiceover, subtitles, music and share copy included. One command, rendered with [Remotion](https://remotion.dev).
 
 The Short above was made by `/video` from a single article.
 
@@ -25,14 +25,19 @@ Or just a topic:
 /video "Claude Code hooks"
 ```
 
-Want it wide? Ask for long-form, or both:
+Long-form explainer (16:9, 2–6 min, chapters):
 
 ```text
 /video <link> --long
+```
+
+Both at once (a separate script for each, never a crop):
+
+```text
 /video <link> --both
 ```
 
-You get an `out/<slug>/` folder with the MP4, a thumbnail, contact sheets and `upload.md` (title, description, hashtags). It never posts anything; that part is yours.
+You get an `out/<slug>/` folder with the MP4(s), a thumbnail, contact sheets and `upload.md` (title, description, hashtags, plus chapters for long-form). It never posts anything; that part is yours.
 
 ## What's in a video
 
@@ -47,7 +52,7 @@ You get an `out/<slug>/` folder with the MP4, a thumbnail, contact sheets and `u
 | Personality | **Mo**, a 3D mascot who talks while the voice speaks. |
 | End card | Logo, a FOLLOW button and a poster frame. |
 
-Word-synced subtitles, a local voiceover at Shorts pace, an original music bed and -14 LUFS mastering are built in.
+Every shot is laid out natively for both 9:16 and 16:9. Long-form strings the same shots into chapters. Word-synced subtitles, a local voiceover, an original music bed and -14 LUFS mastering are built in.
 
 ## Install
 
